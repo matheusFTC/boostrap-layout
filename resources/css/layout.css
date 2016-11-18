@@ -8,20 +8,18 @@ body {
     font-family: Lato, sans-serif;
 }
 
+section {
+    text-align: center;
+}
+
 section header {
     margin: 2.5em 0;
-    text-align: center;
 }
 
 section header h2 {
     font-size: 2.4em;
     font-weight: 400;
     color: #626262;
-}
-
-section h3 {
-    font-size: 2.1em;
-    color: #414141;
 }
 
 section header p {
@@ -31,9 +29,128 @@ section header p {
     color: #997a00;
 }
 
+section h3 {
+    font-size: 2.1em;
+    color: #414141;
+}
+
+a.btn {
+    background-color: #cca300;
+    color: #ffffff;
+}
+
+p.special {
+    font-weight: 700;
+    color: #cca300;
+}
+
+p.height-long {
+    line-height: 2.6em;
+}
+
+.banner {
+    margin-top: 3em;
+    margin-bottom: 2em;
+    padding: 1.4em 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+div#top div.logo, div#top p {
+    text-align: center;
+}
+
+div#top div.logo h1 {
+    font-weight: 700;
+    font-size: 1.8em;
+    color: #cca300;
+}
+
+div#top p {
+    font-style: italic;
+    font-weight: 700;
+}
+
+section#banner-one {
+    background-image: url('https://dummyimage.com/1920x1080/d5d5d5/fff');
+}
+
+section#banner-one div#banner-one-content {
+    padding: 6em 3em;
+}
+
+nav#main-menu, nav#secondary-menu {
+    margin-top: 12px;
+    margin-bottom: 35px;
+}
+
+nav#main-menu > ul, nav#secondary-menu > ul {
+    width: 100%;
+    padding-right: inherit;
+    padding-left: inherit;
+    margin-right: inherit;
+    margin-left: inherit;
+    text-align: center;
+}
+
+nav#main-menu > ul > li, nav#secondary-menu > ul > li {
+    display: inline-block;
+    float: none;
+}
+
+nav#main-menu > ul > li > a, nav#secondary-menu > ul > li > a {
+    border-radius: 8px;
+    text-align: center;
+}
+
+nav#main-menu > ul > li > a > span {
+    margin-right: 10px;
+}
+
+section#articles article {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+section#articles h2 {
+   font-size: 1.8em;
+}
+
+section#articles div#banner-article {
+    padding: 3em;
+    background-image: url('http://ibrafis.com.br/wp-content/uploads/Efeito-Sombra.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    color: #ffffff;
+}
+
+section#banner-two {
+    background-image: url('https://dummyimage.com/1920x1080/121212/323232');
+}
+
+section#banner-two div#banner-two-content {
+    display: inline-block;
+    width: 60%;
+    padding: 2em 3em;
+    border: 1px solid #cca300;
+}
+
+section#banner-two div#banner-two-content h2 {
+    margin: 15px 0;
+    font-size: 1.4em;
+    color: #ffffff;
+}
+
+section#banner-two div#banner-two-content p {
+    color: #cca300;
+}
+
 section#items div.item {
     margin: 0.5em 0;
-    text-align: center;
 }
 
 section#items p {
@@ -43,4 +160,104 @@ section#items p {
 section#models div.model {
     padding-left: 0;
     padding-right: 0;
+}
+
+section#more {
+    margin-top: 6em;
+}
+
+section#more p {
+    margin-bottom: 1.2em;
+    font-size: 1.1em;
+}
+
+section#others h3, section#team h3 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+section#others p, section#team p {
+    font-size: 1.1em;
+    color: #cca300;
+}
+
+section#banner-three {
+    background-image: url('https://dummyimage.com/1920x1080/d5d5d5/fff');
+}
+
+section#banner-three div.row div.col-md-12 p {
+    display: inline-block;
+    width: 60%;
+    padding: 2em 3em;
+    border: 1px solid #cca300;
+    color: #997a00;
+}
+
+section#banner-three footer span {
+    font-size: 3.5em;
+    vertical-align: middle;
+}
+
+section#banner-three footer p {
+    font-style: italic;
+    font-weight: 700;
+}
+
+section#map {
+    margin-top: 3em;
+    margin-bottom: 2em;
+    height: 12em;
+    background-image: url('http://www.myarmytraining.com/wp-content/uploads/2016/02/chfhv.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+footer {
+    font-size: 0.9em;
+}
+
+footer header, footer dl {
+    text-align: center;
+}
+
+footer header h3 {
+    margin-top: 0;
+    color: #997a00;
+}
+
+footer dl dt a {
+    display: inline-block;
+    margin: 2px;
+    padding: 2px;
+    color: #414141;
+    text-decoration: underline;
+}
+
+footer dl dt a:hover {
+    color: #337ab7;
+}
+
+footer address {
+    text-align: right;
+}
+
+footer address ul.nav-pills li {
+    float: right;
+}
+
+footer address ul.nav-pills li a {
+    margin: 2px;
+    padding: 10px;
+    color: #414141;
+}
+
+footer address ul.nav-pills li a:hover {
+    color: #337ab7;
+}
+
+footer address p {
+    margin-right: 10px;
+    margin-bottom: 2px;
 }
